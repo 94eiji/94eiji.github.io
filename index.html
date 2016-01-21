@@ -1,18 +1,96 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
-    <!-- BootstrapのCSS読み込み -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- jQuery読み込み -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-  </body>
+<head>
+  <meta charset=utf-8>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name=”description” content="自己紹介及びポートフォリオサイトです。">
+  <title>クッシーの自己紹介ページ</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header>
+    <div id="logo">
+      <img src="images/profile.jpg" alt="" />
+      <h1>クッシー</h1>
+      <p>Webサイトが作れるようになりたくて、Tech Academyに参加しました。</p>
+    </div>
+    <div id="profile">
+      <a href="https://github.com/94eiji">
+        <img src="images/github.gif">
+      </a>
+      <a href="https://www.facebook.com/ej.kushi">
+        <img src="images/facebook.png">
+      </a>
+      <a href="https://twitter.com/OnTheWaves94">
+        <img src="images/twitter.png">
+      </a>
+      <a href="http://qiita.com/ekushida">
+        <img src="images/qiita.png">
+      </a>
+    </div>
+    
+  </header> <!-- header -->
+  
+  <div class="container">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title" id="panel-title">スキル</h3>
+      </div> <!-- panel-heading -->
+      <div class="panel-body">
+        <div class="skill">
+          <div class="box">
+            <img src="images/html5.jpeg" alt="html5" />
+            <p class="caption">HTML5</p>
+          </div>
+          <div class="box">
+            <img src="images/css3.jpeg" alt="css3" />
+            <p class="caption">CSS3</p>
+          </div>
+          <div class="box">
+            <img src="images/bootstrap.png" alt="bootstrap3" />
+            <p class="caption">BootStrap3</p>
+          </div>
+          <div class="box">
+            <img src="images/ruby.jpeg" alt="ruby" />
+            <p class="caption">Ruby</p>
+          </div>
+          <div class="box">
+            <img src="images/git.jpeg" alt="git" />
+            <p class="caption">Git</p>
+          </div>
+        </div>
+      </div> <!-- panel-body -->
+    </div> <!-- panel -->
+    
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title" id="panel-title">ポートフォリオ</h3>
+      </div> <!-- panel-heading -->
+      <div class="panel-body">
+        <div class="skill">
+          <div class="box">
+            <img src="images/dummy.jpg" alt="メッセージボード" />
+            <p class="caption">メッセージボード</p>
+          </div>
+          
+          <div class="box">
+            <img src="images/dummy.jpg" alt="Twitterクローン" />
+            <p class="caption">Twitterクローン</p>
+          </div>
+          <div class="box">
+            <img src="images/dummy.jpg" alt="モノリスト" />
+            <p class="caption">モノリスト</p>
+          </div>
+        </div>
+      </div> <!-- panel-body -->
+    </div> <!-- panel -->
+  </div> <!-- container -->
+  <footer>
+    <p>Copyright &copy; 2016 Eiji Kushida All Rights  </p>
+  </footer>
+</body>
 </html>
